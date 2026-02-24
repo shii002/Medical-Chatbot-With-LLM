@@ -1,11 +1,10 @@
-flask
-python-dotenv
-pypdf
-sentence-transformers
+flask==3.1.1
+python-dotenv==1.1.0
+pypdf==5.6.1
+sentence-transformers==2.2.2
 
-langchain
-langchain-community
-langchain-pinecone
-langchain-nvidia-ai-endpoints
-pinecone-client
+langchain==0.1.16
+langchain-community==0.0.36
+langchain-openai==0.1.7
+langchain-pinecone==0.0.3
 - e.
