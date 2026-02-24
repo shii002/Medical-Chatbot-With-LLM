@@ -1,12 +1,12 @@
 from setuptools import find_packages, setup
-setup(
-    name="Medical_Chatbot",
-    version="0.1.0",
-    author="Shivangani",
-    author_email="<Shivanganii001@gmail.com>",
-    packages=find_packages(),
-    install_requires=[])
 
+
+setup(
+    name="medical-chatbot-with-llm",
+    version="0.0.1",
+    packages=find_packages(),
+    install_requires=open("requirements.txt").read().splitlines(),
+)
 install_requires=[
     "flask==3.1.1",
     "gunicorn==21.2.0",
